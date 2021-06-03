@@ -1,0 +1,29 @@
+
+body {
+    font-family: $font-text;
+    line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $font-title;
+}
+
+
+// Párrafo con capital letter
+.capital-letter {
+    -webkit-initial-letter: 3;
+    initial-letter: 3;
+
+    &::first-letter {
+        float: left;
+        font-size: 6rem;
+        line-height: 0;
+        margin: 0.1em 0.1em 0.1em 0;
+    }   
+
+}
