@@ -14,6 +14,7 @@ html {
 
 body {
   margin: 0;
+  background-color: #090b1a;
 }
 
 img {
@@ -34,7 +35,7 @@ img {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Lexend Deca", sans-serif;
   line-height: 1.6;
 }
 
@@ -44,7 +45,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: serif;
+  font-family: "Inter", serif;
 }
 
 .capital-letter {
@@ -84,10 +85,31 @@ h6 {
           box-shadow: 0 0 0 0.25rem white;
 }
 
+.card-preview {
+  background-color: #1b1938;
+  color: white;
+}
+
+.card-preview__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2rem;
+  width: 50%;
+}
+
+.card-preview__stats--title {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.card-preview__stats--text {
+  color: rgba(15, 6, 6, 0.75);
+}
+
 .image--shadow {
-  box-shadow: 25px 25px 0px 0px red;
-  -webkit-box-shadow: 25px 25px 0px 0px red;
-  -moz-box-shadow: 25px 25px 0px 0px red;
+  box-shadow: 25px 25px 0px 0px #1b1938;
+  -webkit-box-shadow: 25px 25px 0px 0px #1b1938;
+  -moz-box-shadow: 25px 25px 0px 0px #1b1938;
 }
 
 /*  

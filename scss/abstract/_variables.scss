@@ -1,13 +1,17 @@
 // Colores
 $black: black;
-$white: white;
-$primary: red;
-$secondary: green;
+$white: hsl(0, 0%, 100%);
+$primary: hsl(244, 38%, 16%);
+$primary-dark: hsl(233, 47%, 7%);
+$secondary: hsl(277, 64%, 61%);
+
+$heading-bold: hsl(0, 0%, 100%);
+$main-paragraph: hsla(0, 43%, 4%, 0.75);
+$heading-stat: hsla(0, 0%, 100%, 0.6);
 
 // Fuentes
-$font-text: sans-serif;
-$font-title: serif;
-$font-logo: sans-serif;
+$font-text: 'Lexend Deca', sans-serif;
+$font-title: 'Inter' ,serif;
 
 // Tamaños
 $size1: 3.052rem;

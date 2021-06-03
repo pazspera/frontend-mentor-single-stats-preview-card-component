@@ -1,0 +1,25 @@
+.card-preview{
+    background-color: $primary;
+    color: $heading-bold;
+
+    &__content{
+        display: flex; 
+        padding: 2rem;
+        width: 50%;
+    }
+
+    %__img{
+        width: 50%;
+    }
+}
+
+.card-preview__stats {
+
+    &--title{
+        color: $heading-stat;
+    }
+
+    &--text{
+        color: $main-paragraph;
+    }
+}
