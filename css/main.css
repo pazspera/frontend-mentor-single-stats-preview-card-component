@@ -48,16 +48,8 @@ h6 {
   font-family: "Inter", serif;
 }
 
-.capital-letter {
-  -webkit-initial-letter: 3;
-  initial-letter: 3;
-}
-
-.capital-letter::first-letter {
-  float: left;
-  font-size: 6rem;
-  line-height: 0;
-  margin: 0.1em 0.1em 0.1em 0;
+.highlight {
+  color: #aa5cdb;
 }
 
 .btn {
@@ -88,6 +80,7 @@ h6 {
 .card-preview {
   background-color: #1b1938;
   color: white;
+  border-radius: 10px;
 }
 
 .card-preview__content {
@@ -95,21 +88,54 @@ h6 {
   display: -ms-flexbox;
   display: flex;
   padding: 2rem;
-  width: 50%;
+}
+
+.card-preview__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.card-preview__title {
+  font-size: 1.75rem;
+  line-height: 1.2;
+}
+
+.card-preview__text {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.95rem;
 }
 
 .card-preview__stats--title {
-  color: rgba(255, 255, 255, 0.6);
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 0;
+  font-weight: 700;
 }
 
 .card-preview__stats--text {
-  color: rgba(15, 6, 6, 0.75);
+  color: rgba(255, 255, 255, 0.75);
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: 400;
 }
 
 .image--shadow {
   box-shadow: 25px 25px 0px 0px #1b1938;
   -webkit-box-shadow: 25px 25px 0px 0px #1b1938;
   -moz-box-shadow: 25px 25px 0px 0px #1b1938;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 3rem 0;
 }
 
 /*  

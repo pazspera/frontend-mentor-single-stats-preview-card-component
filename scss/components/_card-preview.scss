@@ -1,25 +1,45 @@
 .card-preview{
     background-color: $primary;
     color: $heading-bold;
+    border-radius: 10px;
 
     &__content{
         display: flex; 
         padding: 2rem;
-        width: 50%;
     }
 
-    %__img{
-        width: 50%;
-    }
+}
+
+.card-preview__content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card-preview__title{
+    font-size: 1.75rem;
+    line-height: 1.2;
+}
+
+.card-preview__text{
+    color: $main-paragraph;
+    font-size: 0.95rem;
 }
 
 .card-preview__stats {
 
     &--title{
-        color: $heading-stat;
+        color: $heading-bold;
+        font-size: 1.5rem;
+        margin-bottom: 0;
+        font-weight: 700;
     }
 
     &--text{
         color: $main-paragraph;
+        margin: 0;
+        text-transform: uppercase;
+        font-size: 0.75rem;
+        font-weight: 400;
     }
 }
