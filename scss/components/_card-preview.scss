@@ -10,6 +10,23 @@
 
 }
 
+.card-preview__img, 
+.card.preview__img img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-preview__img{
+    background: darken($secondary, 30%);
+    overflow: hidden;
+
+    img {
+        object-fit: cover;
+        opacity: 0.3;
+        filter: contrast(1.2);
+    }
+}
+
 .card-preview__content{
     display: flex;
     flex-direction: column;

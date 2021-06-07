@@ -90,6 +90,25 @@ h6 {
   padding: 2rem;
 }
 
+.card-preview__img,
+.card.preview__img img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-preview__img {
+  background: #5b1c82;
+  overflow: hidden;
+}
+
+.card-preview__img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0.3;
+  -webkit-filter: contrast(1.2);
+          filter: contrast(1.2);
+}
+
 .card-preview__content {
   display: -webkit-box;
   display: -ms-flexbox;
