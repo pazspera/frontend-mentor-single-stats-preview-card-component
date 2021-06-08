@@ -89,7 +89,7 @@ h6 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 2rem;
+  padding: 2.5rem 3.5rem;
 }
 
 .card-preview__img {
@@ -125,6 +125,8 @@ h6 {
 .card-preview__title {
   font-size: 1.75rem;
   line-height: 1.2;
+  margin-bottom: 0.5rem;
+  margin-top: 0;
 }
 
 .card-preview__text {
@@ -157,22 +159,25 @@ h6 {
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
   }
-  .card-preview__content, .card-preview__img {
-    width: 50%;
+  .card-preview__content {
+    width: 52%;
+  }
+  .card-preview__img {
+    width: 48%;
   }
   .card-preview__content {
-    padding: 3rem;
+    padding: 2.5rem;
   }
   .card-preview__title, .card-preview__text, .card-preview__stats--icon {
     text-align: start;
   }
   .card-preview__title {
-    margin-bottom: 0.5rem;
     margin-top: 0;
     font-size: 2rem;
   }
   .card-preview__text {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+    max-width: 430px;
   }
   .card-preview__stats {
     display: -webkit-box;
@@ -248,11 +253,15 @@ Bootstrap: Override colores navbar
 */
 .attribution {
   color: rgba(255, 255, 255, 0.75);
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 .attribution a:link {
   color: #aa5cdb;
+}
+
+.attribution a:visited {
+  color: #d6b0ee;
 }
 
 main {

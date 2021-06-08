@@ -1,9 +1,13 @@
 .attribution {
     color: $main-paragraph;
-    margin-top: 1rem;
+    margin-top: 2rem;
 
     a:link {
         color: $secondary;
+    }
+
+    a:visited{
+        color: lighten($secondary, 20%);
     }
 }
 
