@@ -1,0 +1,6 @@
+Agregar source set a la img para que cambie al pasar a desktop
+
+Alinear verticalmente la card y attribution
+
+Cambiar formato attribution
+
