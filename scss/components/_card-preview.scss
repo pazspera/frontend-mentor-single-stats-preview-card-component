@@ -2,7 +2,7 @@
     background-color: $primary;
     color: $heading-bold;
     border-radius: 10px;
-    max-width: 1100px;
+    max-width: 540px;
     margin: 0 auto;
 
     &__content{
@@ -11,6 +11,7 @@
     }
 
 }
+
 
 .card-preview__img{
     background: darken($secondary, 30%);
@@ -65,10 +66,12 @@
     }
 }
 
-@media(min-width: 900px){
+@media(min-width: 1000px){
     .card-preview{
         display: flex;
         flex-direction: row-reverse;
+        max-height: 350px;
+        max-width: 1050px;
         
         &__content {
             width: 52%;
@@ -79,7 +82,7 @@
         }
 
         &__content{
-            padding: 2.5rem;
+            padding: 1.8rem 2.5rem;
         }
 
         &__title,
@@ -115,4 +118,14 @@
         border-top-left-radius: 0;
     }
     
+}
+
+@media(min-width: 1100px){
+    .card-preview{
+        max-height: none;
+
+        &__content{
+            padding: 2.5rem;
+        }
+    }
 }

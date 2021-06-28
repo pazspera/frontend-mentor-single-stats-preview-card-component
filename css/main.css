@@ -81,7 +81,7 @@ h6 {
   background-color: #1b1938;
   color: white;
   border-radius: 10px;
-  max-width: 1100px;
+  max-width: 540px;
   margin: 0 auto;
 }
 
@@ -149,7 +149,7 @@ h6 {
   font-weight: 400;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1000px) {
   .card-preview {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -158,6 +158,8 @@ h6 {
     -webkit-box-direction: reverse;
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
+    max-height: 350px;
+    max-width: 1050px;
   }
   .card-preview__content {
     width: 52%;
@@ -166,7 +168,7 @@ h6 {
     width: 48%;
   }
   .card-preview__content {
-    padding: 2.5rem;
+    padding: 1.8rem 2.5rem;
   }
   .card-preview__title, .card-preview__text, .card-preview__stats--icon {
     text-align: start;
@@ -197,6 +199,15 @@ h6 {
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
     border-top-left-radius: 0;
+  }
+}
+
+@media (min-width: 1100px) {
+  .card-preview {
+    max-height: none;
+  }
+  .card-preview__content {
+    padding: 2.5rem;
   }
 }
 
